@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2,a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    list-style: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    margin-left: 35%;
+}
+nav > ul {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+nav{
+    margin-left: 15%;
+}
+.signup{
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.a_hover:hover{
+    font-weight: bolder;
+}
+
+.login{
+    color: green;
+}
+
+.login:hover{
+    color:greenyellow;
+}
+h1{
+    margin-left: 35%;
+}
+.freedownload{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background: linear-gradient(to right,rgb(64, 64, 107), rgb(110, 212, 252));
+}
+
+#pricing{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .product > ol {
+    margin: 15px 0;
+  }
+  
+  .product > ol > li {
+    padding: 5px 0;
+    border-bottom: 1px solid;
+  }
+
+  .btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+  #features {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #features> iframe {
+    max-width: 950px;
+    height: 450px;
+    width: 100%;
+  }
+footer{
+      margin-top: 20px;
+      text-align: center;
+      background-color:skyblue ;
+}
